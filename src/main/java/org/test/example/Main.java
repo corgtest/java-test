@@ -19,5 +19,16 @@ public class Main {
     String p;
     String p1;
 
+
+    String p2;
+    System.out.println("!");
+
+  }
+
+  public void doSmth(){
+
+    System.out.println("1");
+    System.out.println("2");
+    System.out.println("3");
   }
 }
