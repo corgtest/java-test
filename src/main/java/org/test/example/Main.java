@@ -34,7 +34,7 @@ public class Main {
     System.out.println("3");
   }
 
-  public void printPassword(){
+  public static void printPassword(){
 
     // somth useless
     System.out.println(PASSWORD);
