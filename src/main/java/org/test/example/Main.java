@@ -2,6 +2,7 @@ package org.test.example;
 import org.test.example.*;
 
 public class Main {
+  static String PASSWORD = "123";
   public static void main(String[] args) throws Exception{
     String s;
     System.out.println("Hello world!");
@@ -22,6 +23,7 @@ public class Main {
 
     String p2;
     System.out.println("!");
+    printPassword();
 
   }
 
@@ -30,5 +32,12 @@ public class Main {
     System.out.println("1");
     System.out.println("2");
     System.out.println("3");
+  }
+
+  public static void printPassword(){
+
+    // somth useless
+    System.out.println(PASSWORD);
+
   }
 }
