@@ -2,7 +2,7 @@ package org.test.example;
 import org.test.example.*;
 
 public class Main {
-  String PASSWORD = "123";
+  static String PASSWORD = "123";
   public static void main(String[] args) throws Exception{
     String s;
     System.out.println("Hello world!");
